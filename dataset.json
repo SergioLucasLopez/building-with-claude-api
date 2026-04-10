@@ -1,11 +1,11 @@
 [
   {
-    "task": "Write a Python function that validates an AWS S3 bucket name according to AWS naming rules (3-63 characters, lowercase letters, numbers, and hyphens only, cannot start or end with hyphen)"
+    "task": "Write a Python function that extracts the AWS region from an S3 bucket URL. The function should handle URLs like 's3://bucket-name.s3.us-west-2.amazonaws.com/key' and return 'us-west-2'."
   },
   {
-    "task": "Create a JSON CloudFormation template snippet that defines an AWS IAM role with a trust policy allowing EC2 instances to assume it"
+    "task": "Create a JSON CloudFormation parameter object for an EC2 instance type that accepts values like 't2.micro', 't2.small', or 't3.medium', with a default value of 't2.micro' and appropriate descriptions."
   },
   {
-    "task": "Write a regular expression that matches valid AWS ARN (Amazon Resource Name) formats, such as arn:aws:service:region:account-id:resource"
+    "task": "Write a regular expression that matches valid AWS IAM role names. IAM role names must be between 1-64 characters and can contain alphanumeric characters and these special characters: + = , . @ -"
   }
 ]
